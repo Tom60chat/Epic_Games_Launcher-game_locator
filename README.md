@@ -13,8 +13,5 @@ Make your games recognized in the 'Epic Games Launcher'.
 
 ## Videos:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cMBcg22AO-A/0.jpg)](https://www.youtube.com/watch?v=cMBcg22AO-A)
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=cMBcg22AO-A
-" target="_blank"><img src="http://img.youtube.com/vi/cMBcg22AO-A/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+Click on the image to open YouTube  
+[![Tutorial video](https://img.youtube.com/vi/cMBcg22AO-A/0.jpg)](https://www.youtube.com/watch?v=cMBcg22AO-A)
