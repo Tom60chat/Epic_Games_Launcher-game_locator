@@ -1,0 +1,26 @@
+﻿<Window x:Class="EpicLauncher_GameLocator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EpicLauncher_GameLocator"
+        mc:Ignorable="d"
+        Title="EpicLauncher GameLocator" Height="200" Width="400" Background="#FF121212" Foreground="White" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0">
+        <Label Content="Locate an EpicGamesLauncher game" Margin="0,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" FontSize="18">
+            <Label.Foreground>
+                <SolidColorBrush Color="White"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="GamePath" Text="Game.exe path" HorizontalAlignment="Center" Margin="0,0,60,85" VerticalAlignment="Bottom" Height="25" Width="240" IsEnabled="False"/>
+        <Button x:Name="GameBrowse_Button" Content="Browse" HorizontalAlignment="Center" Margin="0,0,-250,85" VerticalAlignment="Bottom" Height="25" Width="60" Click="GameBrowse_Button_Click"/>
+        
+        <TextBox x:Name="EgStorePath" Text="Game folder path" HorizontalAlignment="Center" Margin="0,0,60,55" VerticalAlignment="Bottom" Height="25" Width="240" IsEnabled="False"/>
+        <Button x:Name="EgStoreBrowse_Button" Content="Browse" HorizontalAlignment="Center" Margin="0,0,-250,55" VerticalAlignment="Bottom" Height="25" Width="60" Click="EgStoreBrowse_Button_Click"/>
+        
+        <Button x:Name="Locate_Button" Content="Locate" HorizontalAlignment="Center" Margin="0,0,0,15" VerticalAlignment="Bottom" Height="25" Width="60" Click="Locate_Button_Click"/>
+        
+        <TextBlock x:Name="Activity" HorizontalAlignment="Center" Margin="0,0,0,25" TextWrapping="Wrap" Text="Activity" VerticalAlignment="Bottom" Visibility="Collapsed" FontFamily="Arial"/>
+
+    </Grid>
+</Window>
